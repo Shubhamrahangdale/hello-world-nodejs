@@ -20,7 +20,7 @@ resource "aws_ecs_task_definition" "main" {
   }])
 }
 
-resource "aws_ecs_service" "main" {
+resource "aws_ecs_service" "helloNodejs" {
   name            = var.app_name
   cluster         = aws_ecs_cluster.main.id
   task_definition = aws_ecs_task_definition.main.arn
