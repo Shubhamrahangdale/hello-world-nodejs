@@ -3,6 +3,6 @@ output "ecs_cluster_id" {
 }
 
 output "ecs_service_name" {
-  value = aws_ecs_service.helloNodejs.name
+  value = aws_ecs_service.ec2_service.name
 }
 
