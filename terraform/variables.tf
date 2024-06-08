@@ -7,7 +7,7 @@ variable "ecs_cluster_name" {
 }
 
 variable "aws_region" {
-  default = "us-east-1"
+  default = "us-west-2"
 }
 
 variable "aws_profile" {
