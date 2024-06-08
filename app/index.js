@@ -7,5 +7,5 @@ app.get('/',(req,res) => {
 });
 
 app.listen(port, () => {
-  consile.log(`App running at http:localhost:${port}`);
+  console.log(`App running at http:localhost:${port}`);
 });  
